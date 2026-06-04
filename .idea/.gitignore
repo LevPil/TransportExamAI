@@ -1,0 +1,139 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# IDE / OS
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# API keys and private data
+data/*.txt
+data/*.key
+data/*key*
+data/*secret*
+data/*token*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# =========================
+# Runtime uploaded files
+# =========================
+uploaded_docs/
+!uploaded_docs/.gitkeep
+
+# =========================
+# Vector database / RAG cache
+# =========================
+chroma_db/
+*.sqlite3
+*.sqlite
+*.db
+
+# =========================
+# ML / AI model artifacts
+# =========================
+model.pt
+
+models/*.joblib
+models/*.pkl
+models/*.pickle
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Если нужно оставить папку models в репозитории
+!models/.gitkeep
+
+# =========================
+# Datasets
+# =========================
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Audio temp files
+*.wav
+*.mp3
+*.ogg
+*.m4a
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+
+# =========================
+# Mypy / Ruff / tools cache
+# =========================
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# =========================
+# Docker / local volumes
+# =========================
+pgdata/
+postgres_data/
+
+# =========================
+# Repomix / generated project dumps
+# =========================
+project_code.md
+repomix-output.*
